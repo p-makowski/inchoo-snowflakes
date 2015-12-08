@@ -1,0 +1,12 @@
+<?php if(Mage::getStoreConfig('snowflakes/snowflakes_group/snowflakes_enabler')): ?>
+
+	<script type="text/javascript">
+		//<![CDATA[
+		// Inchoo Snowflakes
+		// Let it snow, let it snow, let it snow...
+		var Snow = new InchooSnowflakes(<?php echo $this->getJsonOptions(); ?>);
+		Snow.start();
+		//]]>
+
+	</script>
+<?php endif; ?>

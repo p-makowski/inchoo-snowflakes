@@ -1,0 +1,5 @@
+src/app/code/community/Inchoo/Snowflakes     app/code/community/Inchoo/Snowflakes
+src/app/etc/modules/*    app/etc/modules/
+src/app/design/frontend/base/default/layout/inchoo/snowflakes   app/design/frontend/base/default/layout/inchoo/snowflakes
+src/app/design/frontend/base/default/template/inchoo/snowflakes   app/design/frontend/base/default/template/inchoo/snowflakes
+src/skin/frontend/base/default/js/snowflakes.js skin/frontend/base/default/js/snowflakes.js

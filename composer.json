@@ -1,0 +1,14 @@
+{
+    "name": "inchoo/snowflakes",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "http://inchoo.net/magento/snowflakes-magento-extension/",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Inchoo"
+        }
+    ]
+}

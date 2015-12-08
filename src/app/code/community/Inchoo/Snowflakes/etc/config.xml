@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<config>
+	<modules>
+		<Inchoo_Snowflakes>
+			<version>1.0.0</version>
+		</Inchoo_Snowflakes>
+	</modules>
+	<global>
+		<helpers>
+			<snowflakes>
+				<class>Inchoo_Snowflakes_Helper</class>
+			</snowflakes>
+		</helpers>
+		<blocks>
+			<snowflakes>
+				<class>Inchoo_Snowflakes_Block</class>
+			</snowflakes>
+		</blocks>
+	</global>
+	<frontend>
+		<layout>
+			<updates>
+				<inchoo_snowflakes>
+					<file>inchoo/snowflakes/snowflakes.xml</file>
+				</inchoo_snowflakes>
+			</updates>
+		</layout>
+	</frontend>
+	<adminhtml>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<snowflakes translate="title" module="snowflakes">
+											<title>Snowflakes</title>
+											<sort_order>50</sort_order>
+										</snowflakes>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+	<default>
+		<snowflakes>
+			<snowflakes_group>
+				<snowflakes_enabler>No</snowflakes_enabler>
+				<snowflakes_number>50</snowflakes_number>
+				<snowflakes_colors>#e6f2ff, #eee, lightblue</snowflakes_colors>
+				<snowflakes_text>&#x2744;</snowflakes_text>
+				<snowflakes_speed>1</snowflakes_speed>
+				<snowflakes_minsize>10</snowflakes_minsize>
+				<snowflakes_maxsize>50</snowflakes_maxsize>
+			</snowflakes_group>
+		</snowflakes>
+	</default>
+</config>

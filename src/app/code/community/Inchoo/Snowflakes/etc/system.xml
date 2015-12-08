@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<snowflakes translate="label" module="snowflakes">
+			<label>Inchoo Snowflakes</label>
+			<sort_order>200</sort_order>
+		</snowflakes>
+	</tabs>
+	<sections>
+		<snowflakes translate="label" module="snowflakes">
+			<class>separator-top</class>
+			<label>Inchoo Snowflakes Config</label>
+			<tab>snowflakes</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>40</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<snowflakes_group translate="label" module="snowflakes">
+					<label>Snowflakes Config</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>100</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<snowflakes_enabler translate="label comment">
+							<label>Enable Inchoo Snowflakes module</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>0</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_enabler>
+						<snowflakes_number translate="label comment">
+							<label>Number of snowflakes</label>
+							<comment>Recommended: 25-75</comment>
+							<tooltip>Be careful, too many snowflakes can slow down your web shop.</tooltip>
+							<frontend_type>text</frontend_type>
+							<sort_order>1</sort_order>
+							<validate>validate-number</validate>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_number>
+						<snowflakes_colors translate="label comment">
+							<label>Color(s) of snowflakes</label>
+							<comment>CSS values: #e6f2ff, #eee, silver</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_colors>
+						<snowflakes_text translate="label comment">
+							<label>Letter(s) that create snowflakes</label>
+							<comment>Unicode characters like &#x2744; &#10053; &#10054; &#9733; &#9734; or any text</comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_text>
+						<snowflakes_speed translate="label comment">
+							<label>Speed of snowflakes</label>
+							<comment>Recommended: 1 to 5</comment>
+							<frontend_type>text</frontend_type>
+							<validate>validate-number</validate>
+							<sort_order>4</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_speed>
+						<snowflakes_minsize translate="label comment">
+							<label>Minimum flake size</label>
+							<comment>Default: 10</comment>
+							<frontend_type>text</frontend_type>
+							<validate>validate-number</validate>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_minsize>
+						<snowflakes_maxsize translate="label comment">
+							<label>Maximum flake size</label>
+							<comment>Default: 50</comment>
+							<validate>validate-number</validate>
+							<frontend_type>text</frontend_type>
+							<sort_order>6</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</snowflakes_maxsize>
+					</fields>
+				</snowflakes_group>
+			</groups>
+		</snowflakes>
+	</sections>
+</config>
